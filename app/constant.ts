@@ -132,7 +132,7 @@ export const KnowledgeCutOffDate: Record<string, string> = {
   "gpt-4-1106-preview": "2023-04",
   "gpt-4-0125-preview": "2023-12",
   "gpt-4-vision-preview": "2023-04",
-  "gpt-4-turbo-2024-04-09":"2024-04-09",
+  "gpt-4-turbo-2024-04-09":"2024-04",
   // After improvements,
   // it's now easier to add "KnowledgeCutOffDate" instead of stupid hardcoding it, as was done previously.
   "gemini-pro": "2023-12",
@@ -335,33 +335,6 @@ export const DEFAULT_MODELS = [
       id: "google",
       providerName: "Google",
       providerType: "google",
-    },
-  },
-  {
-    name: "claude-instant-1.2",
-    available: true,
-    provider: {
-      id: "anthropic",
-      providerName: "Anthropic",
-      providerType: "anthropic",
-    },
-  },
-  {
-    name: "claude-2.0",
-    available: true,
-    provider: {
-      id: "anthropic",
-      providerName: "Anthropic",
-      providerType: "anthropic",
-    },
-  },
-  {
-    name: "claude-2.1",
-    available: true,
-    provider: {
-      id: "anthropic",
-      providerName: "Anthropic",
-      providerType: "anthropic",
     },
   },
   {
